@@ -27,7 +27,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 ################################
 # created at 22,02,2015
 gem 'bootstrap-sass'
-
 # created at 22,02,2015
 gem 'bootstrap-glyphicons'
 ################################
