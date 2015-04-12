@@ -44,6 +44,7 @@ gem 'devise-encryptable'
 gem 'activeadmin'
 gem 'country_select'
 
+gem 'mysql2'
 
 
 # Use ActiveModel has_secure_password

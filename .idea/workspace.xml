@@ -14,6 +14,8 @@
     <file path="/application.css.scss" changelist="f60e5ee9-8cc7-423f-8077-b73ab3851301" time="1428850348869" ignored="false" />
     <file path="/nearCompletion.html.erb" changelist="f60e5ee9-8cc7-423f-8077-b73ab3851301" time="1428851424622" ignored="false" />
     <file path="/location.html.erb" changelist="f60e5ee9-8cc7-423f-8077-b73ab3851301" time="1428849560475" ignored="false" />
+    <file path="/database.yml" changelist="f60e5ee9-8cc7-423f-8077-b73ab3851301" time="1428851869511" ignored="false" />
+    <file path="/Gemfile" changelist="f60e5ee9-8cc7-423f-8077-b73ab3851301" time="1428851887621" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +71,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="38" selection-start="1974" selection-end="1974" vertical-scroll-proportion="0.84662575">
+            <state line="46" column="38" selection-start="1974" selection-end="1974" vertical-scroll-proportion="-11.74468">
               <folding>
                 <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="17" selection-start="514" selection-end="520" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="11" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.60674155">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,17 +114,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -128,11 +137,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/admin/user.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/users/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
@@ -144,6 +151,8 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_nav.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static/nearCompletion.html.erb" />
         <option value="$PROJECT_DIR$/app/views/static/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -426,6 +435,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -546,6 +556,12 @@
         <option name="engineId" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
@@ -751,20 +767,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="16" selection-start="1063" selection-end="1063" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/Site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="45" selection-start="398" selection-end="398" vertical-scroll-proportion="0.35918367">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="28" selection-start="528" selection-end="528" vertical-scroll-proportion="0.30337077">
@@ -860,10 +862,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/static/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="38" selection-start="1974" selection-end="1974" vertical-scroll-proportion="0.84662575">
+        <state line="46" column="38" selection-start="1974" selection-end="1974" vertical-scroll-proportion="-11.74468">
           <folding>
             <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="17" selection-start="514" selection-end="520" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="11" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.60674155">
+          <folding />
         </state>
       </provider>
     </entry>
